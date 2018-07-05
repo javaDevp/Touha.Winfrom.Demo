@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baidu.Lib", "Baidu.Lib\Baidu.Lib.csproj", "{0F18AA3E-F681-4E6F-A07E-849D05DDE21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs.Tests", "Libs.Tests\Libs.Tests.csproj", "{DBEDED8F-07FB-438D-9AEE-105271980D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F18AA3E-F681-4E6F-A07E-849D05DDE21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F18AA3E-F681-4E6F-A07E-849D05DDE21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F18AA3E-F681-4E6F-A07E-849D05DDE21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F18AA3E-F681-4E6F-A07E-849D05DDE21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEDED8F-07FB-438D-9AEE-105271980D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEDED8F-07FB-438D-9AEE-105271980D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEDED8F-07FB-438D-9AEE-105271980D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEDED8F-07FB-438D-9AEE-105271980D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D6B5573-B7FD-4817-B569-6023A51B7AB1}
+	EndGlobalSection
+EndGlobal

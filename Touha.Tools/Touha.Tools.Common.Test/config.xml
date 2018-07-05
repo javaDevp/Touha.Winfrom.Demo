@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<request tran_no ="T_10">
+  <T_101>
+    <a></a>
+  </T_101>
+  <T_102>
+    <b></b>
+  </T_102>
+</request>

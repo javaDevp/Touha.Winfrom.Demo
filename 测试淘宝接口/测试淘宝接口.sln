@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSdk", "..\..\Meterial\电商开发\淘宝sdk\taobao-sdk-net-auto_1513070677389-20171212-source\TopSdk.csproj", "{9C11CAE5-5188-4E71-825B-68FC3135728A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSdk.Test", "TopSdk.Test\TopSdk.Test.csproj", "{DD720634-4890-4EB9-937A-1674D5842122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD720634-4890-4EB9-937A-1674D5842122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD720634-4890-4EB9-937A-1674D5842122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD720634-4890-4EB9-937A-1674D5842122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD720634-4890-4EB9-937A-1674D5842122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20BAA178-8714-4645-AEFE-37260A07DD78}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Quartz.Collection.CollectionUtil" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\CollectionUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Collection.HashSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAASAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Collection\HashSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Collection.TreeSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAQAAQAAAAAAABAIAAAAAAAAAAQAAAEQAAA=</HashCode>
+      <FileName>Collection\TreeSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Core.JobRunShell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAYRAACQICAAACSAAAEAAAEABAAAAAEAAAAAI=</HashCode>
+      <FileName>Core\JobRunShell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Core.QuartzScheduler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sDMGoABVcCUIMWoZ1l26SQSh2kySjZGyEJxcxJEHAxw=</HashCode>
+      <FileName>Core\QuartzScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Core.ErrorLogger" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\QuartzScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Core.ExecutingJobsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAgAABAAAAQEAAADAAAAIBAAAAAAAAA=</HashCode>
+      <FileName>Core\QuartzScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Core.QuartzSchedulerResources" Collapsed="true">
+    <Position X="21.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAACkCAAgAAAAAAAAAQAcAAAAECAAggApAQCAAQAA=</HashCode>
+      <FileName>Core\QuartzSchedulerResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Core.QuartzSchedulerThread" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAQAwoAMAAAAAEQCAAAgCoCEEBAIQQBEASAIQI=</HashCode>
+      <FileName>Core\QuartzSchedulerThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Core.SchedulerSignalerImpl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAACQQAAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Core\SchedulerSignalerImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Core.SchedulingContext" Collapsed="true">
+    <Position X="19.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAA=</HashCode>
+      <FileName>Core\SchedulingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.CriticalSchedulerException" Collapsed="true">
+    <Position X="1.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CriticalSchedulerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.CronExpression" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAItAUJQZwaAAEAIAAABYGAARgAqpNWCLGCAAAwTQ=</HashCode>
+      <FileName>CronExpression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.ValueSet" Collapsed="true">
+    <Position X="21.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CronExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.CronTrigger" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAiClAUAApQAggQBAAQAQAkAAASIAABEEABAAAAABA=</HashCode>
+      <FileName>CronTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.JobDataMap">
+    <Position X="0.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IIIAACAACABCAABQAAQAAAAAAABkGAAAAEAAAACAAAA=</HashCode>
+      <FileName>JobDataMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.JobDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAIEBAAgCgAIQEqQAUAAQAAAFEBIAgEgAAAEAAABk=</HashCode>
+      <FileName>JobDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.JobExecutionContext">
+    <Position X="16.25" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEBEAAEAAAIBZEFAACAQcIAkQAKwBEQAEQAQAAAAk=</HashCode>
+      <FileName>JobExecutionContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.JobExecutionException" Collapsed="true">
+    <Position X="5.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAIAAEAAAAAAAAgAAAAAAABEAA=</HashCode>
+      <FileName>JobExecutionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.JobPersistenceException" Collapsed="true">
+    <Position X="12.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobPersistenceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.NthIncludedDayTrigger" Collapsed="true">
+    <Position X="6.25" Y="15" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAgAABAJJAigAAAAQAQAkAAQCMIAAUAABBBBNIAw=</HashCode>
+      <FileName>NthIncludedDayTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.ObjectAlreadyExistsException" Collapsed="true">
+    <Position X="12.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectAlreadyExistsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.TimeSpanParseRuleAttribute" Collapsed="true">
+    <Position X="21.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugin\Xml\JobInitializationPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.QuartzThread" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQACAAACkEAACAAAQAAAAAACAAQAAAAAgCAAI=</HashCode>
+      <FileName>QuartzThread.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.SchedulerConfigException" Collapsed="true">
+    <Position X="3.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SchedulerConfigException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.SchedulerContext" Collapsed="true">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SchedulerContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.SchedulerException" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAABAiBCGAABCCAkwAgAAACAEDgAAAAIAkgCAQAAgAI=</HashCode>
+      <FileName>SchedulerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.SchedulerMetaData" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAIAACBABAAAAAANAECgMwICFRYIAAggEAAAAAAQAgA=</HashCode>
+      <FileName>SchedulerMetaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.SimpleTrigger" Collapsed="true">
+    <Position X="4.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoISAAASAgLAAggQAgAQAQAkAEACIAAAEEABAAAAAAA=</HashCode>
+      <FileName>SimpleTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Trigger" Collapsed="true">
+    <Position X="4" Y="13.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>YBgCCGAQAA7xAswEoIAUCQQkAAEXCIARIAAJAUBAABk=</HashCode>
+      <FileName>Trigger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.TriggerUtils" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAwAEwCAAAgAAAACACEBAFABEACQQQgBAECQIYM=</HashCode>
+      <FileName>TriggerUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.UnableToInterruptJobException" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnableToInterruptJobException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.AdoConstants" Collapsed="true">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VgNA0IE4AGARMAAYENAAAQJFEapAQEGDIAQAIIGJiAA=</HashCode>
+      <FileName>Impl\AdoJobStore\AdoConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.AdoJobStoreUtil" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAACAA=</HashCode>
+      <FileName>Impl\AdoJobStore\AdoJobStoreUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.AdoUtil" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\AdoUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.DBSemaphore" Collapsed="true">
+    <Position X="7" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAgQAAAAAACCFAAAAiQAACASAAABABAAgQ=</HashCode>
+      <FileName>Impl\AdoJobStore\DBSemaphore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.FiredTriggerRecord" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAUCAAAAQBgAIEAAAABAQAAgQBgAAAAAggAAAAAhA=</HashCode>
+      <FileName>Impl\AdoJobStore\FiredTriggerRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.InvalidConfigurationException" Collapsed="true">
+    <Position X="8" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\InvalidConfigurationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.JobStoreCMT" Collapsed="true">
+    <Position X="12.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAIAAQAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\JobStoreCMT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.ConnectionAndTransactionHolder" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Impl\AdoJobStore\JobStoreSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.JobStoreSupport" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ClsNIEcYiHuiXwAJzjtgjzGsYBuQR2w9EojAsvTawZQ=</HashCode>
+      <FileName>Impl\AdoJobStore\JobStoreSupport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.JobStoreTX" Collapsed="true">
+    <Position X="14.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAIAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\JobStoreTX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.LockException" Collapsed="true">
+    <Position X="14.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\LockException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.NoSuchDelegateException" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\NoSuchDelegateException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.PostgreSQLDelegate" Collapsed="true">
+    <Position X="10.25" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\PostgreSQLDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.SchedulerStateRecord" Collapsed="true">
+    <Position X="33.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAABAEAAQQBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\SchedulerStateRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.SimpleSemaphore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAQAAAAAACCBAAAACAAAAACgAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\SimpleSemaphore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.StdAdoConstants" Collapsed="true">
+    <Position X="8" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zAAqiA1ISDXRYI3BgFAREhJNAjYAAXxCWgBgIHBhBEE=</HashCode>
+      <FileName>Impl\AdoJobStore\StdAdoConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.StdAdoDelegate" Collapsed="true">
+    <Position X="10.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HFUQJ5agsEQgFAhqxIYIVRIJYJgFEBFwNhTF3XXGEAQ=</HashCode>
+      <FileName>Impl\AdoJobStore\StdAdoDelegate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.StdRowLockSemaphore" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgA=</HashCode>
+      <FileName>Impl\AdoJobStore\StdRowLockSemaphore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore" Collapsed="true">
+    <Position X="8" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Impl\AdoJobStore\UpdateRowLockSemaphore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.Common.DbMetadata" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iCAIAAAACMBAAACggCIAMgAuAEDACAAAAAhCMggYAAI=</HashCode>
+      <FileName>Impl\AdoJobStore\Common\DbMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.Common.DbProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAmIAASEAwAAAAAAAAAAATEAAgAEAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\Common\DbProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.AdoJobStore.Common.DbProviderFactory" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\Common\DbProviderFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.AnnualCalendar" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAABAAAwAAAAAAAIAAAAIFCAAAAAAAAAAg=</HashCode>
+      <FileName>Impl\Calendar\AnnualCalendar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.BaseCalendar" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgBAAAIgBAAAoAAAAAAAAAAAACACAAAAAEAAAAA=</HashCode>
+      <FileName>Impl\Calendar\BaseCalendar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.CronCalendar" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAIABAAEgAAAAAAAAAAAQIACAAAAAAAAIAA=</HashCode>
+      <FileName>Impl\Calendar\CronCalendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.DailyCalendar" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAIAAAACADBEkgAADAAAAEgBAAIAjARAgIAAAAsE=</HashCode>
+      <FileName>Impl\Calendar\DailyCalendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.HolidayCalendar" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAgAAQAAAACAAAAIACAAIAAAAAAAA=</HashCode>
+      <FileName>Impl\Calendar\HolidayCalendar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.MonthlyCalendar" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAECAABAAAwAAAAAAAIAAAAIACAAAGAAAAAAA=</HashCode>
+      <FileName>Impl\Calendar\MonthlyCalendar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.Calendar.WeeklyCalendar" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAECAABAAAwAAAAAAAIAAAAIACAAAGAAAAAAA=</HashCode>
+      <FileName>Impl\Calendar\WeeklyCalendar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.DirectSchedulerFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAAAAAASAQAAQhABAARQAAAAAAAAAA=</HashCode>
+      <FileName>Impl\DirectSchedulerFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.RemoteScheduler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBImoEBQEiUEGcIQRF2wCQCAQIzQAQEwEBhpgJEHABw=</HashCode>
+      <FileName>Impl\RemoteScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.SchedulerRepository" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAQAIAAJAAAAAAAAAIAQAAAAAAAAAA=</HashCode>
+      <FileName>Impl\SchedulerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Impl.StdJobRunShellFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAABAAAAAAIIAAAA=</HashCode>
+      <FileName>Impl\StdJobRunShellFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.StdScheduler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBIGoEBQEiUAEcIARF2wCQCAQAzQAQEwEBhJgJkHABw=</HashCode>
+      <FileName>Impl\StdScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Impl.StdSchedulerFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EIAgIUAATSAECQAgAEQARGQACEhQkAQSRIQFAAWCUBA=</HashCode>
+      <FileName>Impl\StdSchedulerFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Job.FileScanJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAIAAACAAAAAgAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Job\FileScanJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Job.NativeJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQBAAAACgAAAEgAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Job\NativeJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Job.NoOpJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Job\NoOpJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Job.SendMailJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEACAAAAAQAAGABAAAAAAgACAARAAAAAAAAAAA=</HashCode>
+      <FileName>Job\SendMailJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.BroadcastSchedulerListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAogAQAAAAAAABAAAAAABAgBAIAAIQAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Listener\BroadcastSchedulerListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.FilterAndBroadcastJobListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAARAAAABkAAAAAAIQAAICGIAAAIAAACAAAAAA=</HashCode>
+      <FileName>Listener\FilterAndBroadcastJobListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.FilterAndBroadcastTriggerListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIBIAAABIAAAAACIQAAIAEIAAEAASACAAEAAA=</HashCode>
+      <FileName>Listener\FilterAndBroadcastTriggerListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.JobChainingJobListener" Collapsed="true">
+    <Position X="14" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAQIAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Listener\JobChainingJobListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Listener.JobListenerSupport" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAACAQAAAgCAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Listener\JobListenerSupport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.SchedulerListenerSupport" Collapsed="true">
+    <Position X="2.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAoAAQAAAAAAAAAAAAAADAgBAAgAAQAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Listener\SchedulerListenerSupport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Listener.TriggerListenerSupport" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAAAAAAACAQAAAgAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Listener\TriggerListenerSupport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Plugin.History.LoggingJobHistoryPlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAASAIAQgAAAAACQQAAAgGAACAIAAAAAAAAQg=</HashCode>
+      <FileName>Plugin\History\LoggingJobHistoryPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Plugin.History.LoggingTriggerHistoryPlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAKAAAQAAAQBACQQAAAgFBAAEAQAAAAAAAAA=</HashCode>
+      <FileName>Plugin\History\LoggingTriggerHistoryPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Plugin.Management.ShutdownHookPlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCCAAUAAAAAAAQAAAAgEAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugin\Management\ShutdownHookPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Plugin.Xml.JobInitializationPlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAoBAAACAKAYgAQABACwQAQkgEAEJQAEAASABAAAg=</HashCode>
+      <FileName>Plugin\Xml\JobInitializationPlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.CascadingClassLoadHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>Simpl\CascadingClassLoadHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.HostnameInstanceIdGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Simpl\HostnameInstanceIdGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.LoadingLoaderClassLoadHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>Simpl\LoadingLoaderClassLoadHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.PropertySettingJobFactory" Collapsed="true">
+    <Position X="5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAIAAAAIAAAAAAAAAAgAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>Simpl\PropertySettingJobFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Simpl.RAMJobStore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARMEIEEKAEPAVaAhRBkoCWAgEAiQQcQgEIgAAtTCgRQ=</HashCode>
+      <FileName>Simpl\RAMJobStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.TriggerComparator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAABAAAAAAAA=</HashCode>
+      <FileName>Simpl\RAMJobStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.JobWrapper" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAEAAAAAAAAAIAAAAAAAQAACAA=</HashCode>
+      <FileName>Simpl\RAMJobStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Simpl.TriggerWrapper" Collapsed="true">
+    <Position X="33.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAgAAEAAAABAAAgIAEAAAAAAAAAAA=</HashCode>
+      <FileName>Simpl\RAMJobStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Simpl.RemotingSchedulerExporter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAwAAAAEAACAAAGIgAAArAAAAGCAEAAAA=</HashCode>
+      <FileName>Simpl\RemotingSchedulerExporter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.SimpleClassLoadHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>Simpl\SimpleClassLoadHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.SimpleInstanceIdGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Simpl\SimpleInstanceIdGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.SimpleJobFactory" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Simpl\SimpleJobFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.SimpleThreadPool" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgABCgAOAgRAABIAAAYAEAAgIBCRAAAAAAAAgAAA=</HashCode>
+      <FileName>Simpl\SimpleThreadPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Simpl.ZeroSizeThreadPool" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQAAAIAACQAAAAgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simpl\ZeroSizeThreadPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Spi.TriggerFiredBundle" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAEAAAIBAAAAACAQIIAgAAKQQEAAAAAAAAAAA=</HashCode>
+      <FileName>SPI\TriggerFiredBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.DateTimeUtil" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\DateTimeUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.DBConnectionManager" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAQAAAAAAAAAAAAACwAAAABAAAAAQAAAIBAAAAA=</HashCode>
+      <FileName>Util\DBConnectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.DirtyFlagMap" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQJAFAABAACAIABQiAAAVAQoAAAAAIAEAAAgAABQIBg=</HashCode>
+      <FileName>Util\DirtyFlagMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Util.FileUtil" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\FileUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.Key" Collapsed="true">
+    <Position X="13.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.LogicalThreadContext" Collapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Util\LogicalThreadContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.ObjectUtils" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Util\ObjectUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.Pair" Collapsed="true">
+    <Position X="14.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAggEAAAIAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Pair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.PropertiesParser" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAARQIAAgAYEACAAIAAACASAAAgACEAKAAAAA=</HashCode>
+      <FileName>Util\PropertiesParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.StringKeyDirtyFlagMap" Collapsed="true">
+    <Position X="1.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAgACgAABAAAAAABAAAAAAAAAAAABAAAACAAAg=</HashCode>
+      <FileName>Util\StringKeyDirtyFlagMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Util.TriggerStatus" Collapsed="true">
+    <Position X="15.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAoAQEAAAEAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\TriggerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.CalendarBundle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAIAAQAAAgBAAAAAAAAAAAAAQAABAGAAAQAEAAACA=</HashCode>
+      <FileName>Xml\CalendarBundle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Quartz.Xml.quartz" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAIAAAQAAAAAAAQAAAAAACA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.joblistenerType" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.abstractTriggerType" Collapsed="true">
+    <Position X="9.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABQAAAAAAABIAQAAAABAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.jobdatamapType" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.entryType" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.cronType" Collapsed="true">
+    <Position X="8.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAIAAIAAgAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.simpleType" Collapsed="true">
+    <Position X="10.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAiAAAAAAAgAAAAAAAgAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.triggerType" Collapsed="true">
+    <Position X="30" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.jobdetailType" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAAAAIAQAAACBAAAEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.jobType" Collapsed="true">
+    <Position X="32" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.calendarType" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAIAAAAAAAAAAFAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Xml\job_scheduling_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.JobSchedulingBundle" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIABAAAIAQQACAAAAgAAAAAABQAAAAA=</HashCode>
+      <FileName>Xml\JobSchedulingBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.JobSchedulingDataProcessor" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>FEAEIQAAAxgIAJgIEACISACAAQiIAAAQAEAURIBAEhw=</HashCode>
+      <FileName>Xml\JobSchedulingDataProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.Constants" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Xml\JobSchedulingDataProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quartz.Xml.ValidationException" Collapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Xml\ValidationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Quartz.SchedulerConstants" Collapsed="true">
+    <Position X="21.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgEAAABAAAAAAAAAAEAABAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Quartz.MisfireInstruction" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>MisfireInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Quartz.Collection.ISet" Collapsed="true">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\ISet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Collection.ISortedSet" Collapsed="true">
+    <Position X="3.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\ISortedSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Core.IJobRunShellFactory" Collapsed="true">
+    <Position X="31.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIIAAAA=</HashCode>
+      <FileName>Core\IJobRunShellFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.ICalendar" Collapsed="true">
+    <Position X="19.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>ICalendar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IInterruptableJob" Collapsed="true">
+    <Position X="15.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>IInterruptableJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IJob" Collapsed="true">
+    <Position X="14.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IJobListener" Collapsed="true">
+    <Position X="30" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAQAAAACAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>IJobListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IScheduler" Collapsed="true">
+    <Position X="21.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBIGoEBQEiUAEUIARF2wCQCAQAzQAQEwEBhJgJEHABw=</HashCode>
+      <FileName>IScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.ISchedulerFactory" Collapsed="true">
+    <Position X="24.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ISchedulerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.ISchedulerListener" Collapsed="true">
+    <Position X="26.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAQAAAAAAAAAAAAAABAgBAAAAAQAAAAAAAAAAgAQ=</HashCode>
+      <FileName>ISchedulerListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IStatefulJob" Collapsed="true">
+    <Position X="13.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStatefulJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.ITriggerListener" Collapsed="true">
+    <Position X="23" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAAAAAAACAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ITriggerListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.IThreadRunnable" Collapsed="true">
+    <Position X="21.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>QuartzThread.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Impl.AdoJobStore.IDbProvider" Collapsed="true">
+    <Position X="21.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAEAAAQEAQAAAAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\Common\IDbProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Impl.AdoJobStore.IDriverDelegate" Collapsed="true">
+    <Position X="23" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HFUQAxIgsAQgFAhoxIYIVRIJAJgBABEwNASFXXSGEAQ=</HashCode>
+      <FileName>Impl\AdoJobStore\IDriverDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Impl.AdoJobStore.ISemaphore" Collapsed="true">
+    <Position X="31.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAACABAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\ISemaphore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Impl.AdoJobStore.ITablePrefixAware" Collapsed="true">
+    <Position X="33.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impl\AdoJobStore\ITablePrefixAware.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Job.IFileScanListener" Collapsed="true">
+    <Position X="24.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Job\IFileScanListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Simpl.IRemotableQuartzScheduler" Collapsed="true">
+    <Position X="19.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MDIGIABAECUIEEIIRl2wCQChQAyQAQEgEBhIgJEGAxw=</HashCode>
+      <FileName>Simpl\IRemotableQuartzScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.IInstanceIdGenerator" Collapsed="true">
+    <Position X="26.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SPI\IInstanceIdGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.IJobFactory" Collapsed="true">
+    <Position X="28.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>SPI\IJobFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.IJobStore" Collapsed="true">
+    <Position X="33.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIEIEAIAEGAFQABRBkgASAgAAiQQUQgAIgAANTCARA=</HashCode>
+      <FileName>SPI\IJobStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.ISchedulerExporter" Collapsed="true">
+    <Position X="23" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SPI\ISchedulerExporter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.ISchedulerPlugin" Collapsed="true">
+    <Position X="28.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SPI\ISchedulerPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.ISchedulerSignaler" Collapsed="true">
+    <Position X="30" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SPI\ISchedulerSignaler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.IThreadPool" Collapsed="true">
+    <Position X="19.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQAAAIAAAQAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SPI\IThreadPool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Quartz.Spi.ITypeLoadHelper" Collapsed="true">
+    <Position X="24.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>SPI\ITypeLoadHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Quartz.TimeSpanParseRule" Collapsed="true">
+    <Position X="23" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAAQAAAAAAAAAAAAAAAQAABAAAAAAA=</HashCode>
+      <FileName>Plugin\Xml\JobInitializationPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Quartz.SchedulerInstruction" Collapsed="true">
+    <Position X="21.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAgABAAAAIAAAAAAAAAAAAAAAgAAAAEAAAAA=</HashCode>
+      <FileName>SchedulerInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Quartz.TriggerState" Collapsed="true">
+    <Position X="24.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQIAAABAAAAAAAAIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TriggerState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Quartz.Simpl.InternalTriggerState" Collapsed="true">
+    <Position X="19.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAEAAUIAAABAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Simpl\RAMJobStore.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="SimSun" Size="9" />
+</ClassDiagram>

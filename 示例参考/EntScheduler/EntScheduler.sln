@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtendJobs", "ExtendJobs", "{60051B64-8B84-41A8-B8D8-76232DAF936C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32", "Win32", "{02CB763B-E563-4ECB-8614-F693FA000777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntScheduler.Extendable", "EntScheduler.Extendable\EntScheduler.Extendable.csproj", "{D8232ADB-DF21-42C4-97FA-57099AF625E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntScheduler.ExtendJobs.EmailJob", "EntScheduler.ExtendJobs.EmailJob\EntScheduler.ExtendJobs.EmailJob.csproj", "{2BC4E0C6-1428-4F81-8105-CCA28A98373D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntScheduler.ExtendJobs.ShutdownJob", "EntScheduler.ExtendJobs.ShutdownJob\EntScheduler.ExtendJobs.ShutdownJob.csproj", "{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntScheduler.Win32", "EntSchedulerWin32\EntScheduler.Win32.csproj", "{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.2008", "Quartz\Quartz.2008.csproj", "{AEF8823B-E45B-4B35-A4D0-C08C1196D017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8232ADB-DF21-42C4-97FA-57099AF625E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8232ADB-DF21-42C4-97FA-57099AF625E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8232ADB-DF21-42C4-97FA-57099AF625E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8232ADB-DF21-42C4-97FA-57099AF625E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC4E0C6-1428-4F81-8105-CCA28A98373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC4E0C6-1428-4F81-8105-CCA28A98373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC4E0C6-1428-4F81-8105-CCA28A98373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC4E0C6-1428-4F81-8105-CCA28A98373D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF8823B-E45B-4B35-A4D0-C08C1196D017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8232ADB-DF21-42C4-97FA-57099AF625E8} = {02CB763B-E563-4ECB-8614-F693FA000777}
+		{2BC4E0C6-1428-4F81-8105-CCA28A98373D} = {60051B64-8B84-41A8-B8D8-76232DAF936C}
+		{63D98AAE-0D03-43EE-9E3D-D11CD5F3DB62} = {60051B64-8B84-41A8-B8D8-76232DAF936C}
+		{4836EFFA-AD60-48DB-BCD2-4248B8AB33F2} = {02CB763B-E563-4ECB-8614-F693FA000777}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19EB40D3-9C6E-4A44-B628-C981469F54F8}
+	EndGlobalSection
+EndGlobal

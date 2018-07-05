@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化操作", "序列化操作\序列化操作.csproj", "{D5014244-4E8D-4F68-A312-F58FD22AFE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Debug|x86.ActiveCfg = Debug|x86
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Debug|x86.Build.0 = Debug|x86
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Release|x86.ActiveCfg = Release|x86
+		{D5014244-4E8D-4F68-A312-F58FD22AFE01}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A806A2-7682-404D-8D1B-D4EB47BCAF4B}
+	EndGlobalSection
+EndGlobal

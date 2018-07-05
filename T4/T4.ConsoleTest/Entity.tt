@@ -1,0 +1,42 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Data.dll" #>
+<#@ assembly name="System.Data.DataSetExtensions.dll" #>
+<#@ assembly name="System.Xml.dll" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Xml" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.IO" #>
+
+<#@ output extension=".cs" #>
+
+<#@ include file="DbHelper.ttinclude"  #>
+using System;
+namespace T4ConsoleApplication.Entities
+{    
+
+    public class <#=config.TableName#>
+    {
+        <# foreach(DbColumn column in DbHelper.GetDbColumns(config.ConnectionString, config.DbDatabase, config.TableName)){#>
+      
+        public <#= column.CSharpType#><# if(column.CommonType.IsValueType && column.IsNullable){#>?<#}#> <#=column.ColumnName#> { get; set; }
+        <#}#> 
+      
+    }
+}
+
+<#+
+    public class config
+    {
+        //修改要生成的数据库表
+        public static readonly string ConnectionString="Data Source=192.168.100.21;Initial Catalog=HK_ERP_KM;User ID=dev_user;Password=hkdevdb@100.9;Connection Timeout=600";
+        public static readonly string DbDatabase="HK_ERP_KM";
+        public static readonly string TableName="BC_OC_OCCloudStock";
+    }
+#>

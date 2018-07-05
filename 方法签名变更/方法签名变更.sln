@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法签名变更", "方法签名变更\方法签名变更.csproj", "{68902F2B-49B8-4B79-AA72-1EFBD9656E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary2", "MyLibrary2\MyLibrary2.csproj", "{F12B1736-5C09-4222-8085-C7B9EE208F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary1", "MyLibrary1\MyLibrary1.csproj", "{C9A0E649-9FBE-4835-831B-86F8920B6FA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68902F2B-49B8-4B79-AA72-1EFBD9656E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68902F2B-49B8-4B79-AA72-1EFBD9656E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68902F2B-49B8-4B79-AA72-1EFBD9656E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68902F2B-49B8-4B79-AA72-1EFBD9656E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12B1736-5C09-4222-8085-C7B9EE208F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12B1736-5C09-4222-8085-C7B9EE208F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12B1736-5C09-4222-8085-C7B9EE208F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12B1736-5C09-4222-8085-C7B9EE208F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A0E649-9FBE-4835-831B-86F8920B6FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A0E649-9FBE-4835-831B-86F8920B6FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A0E649-9FBE-4835-831B-86F8920B6FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A0E649-9FBE-4835-831B-86F8920B6FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8396234D-A12B-4597-846D-E7977F7FFC25}
+	EndGlobalSection
+EndGlobal
